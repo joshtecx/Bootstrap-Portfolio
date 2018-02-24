@@ -1,3 +1,58 @@
-footer {
+body {
+    line-height: 22px;
+    font-size: 18px;
+    background: lavender;
+    color: #777;
+}
+
+
+
+/* Header */
+nav {
     padding: 20px;
+}
+
+.navbar-header {
+    
+    
+}
+
+/* Footer */
+.foot {
+    padding: 30px;
+    background: #777;
+    color: #eee;
+    margin-top: 10px;
+    border-top: 5px solid #eee;
+}
+
+/* Main content */
+#main-image {
+    height: 200px;
+    width: 250px;
+    border: 1px solid #eee;
+}
+
+#main-section {
+    background: #ffffff;
+
+}
+
+/* panel */
+
+
+/* Image Gallery */
+
+.gallery {
+    height: 200px;
+    width: 250px;
+    border: 1px solid #eee;
+}
+
+#row1 {
+    margin-bottom: 10px;
+}
+
+#row2 {
+    margin-bottom: 10px;
 }

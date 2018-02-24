@@ -8,6 +8,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>About</title>
 </head>
 <body>
@@ -33,16 +34,39 @@
     <div class="container">
         <div class="row">
             <!-- about me -->
-            <div class="col-xs-12 col-s-12 col-md-8">
+            <div class="col-xs-12 col-s-12 col-md-8" id="main-section">
                 <div class="page-header">
                     <h1>About Me</h1>
                 </div>
 
-                <div>
-                    <p >I'm Josh Tec, and I am an aspiring developer. <br>
-                        I am currently attending a coding bootcamp at Georgia Tech, <br>
-                        which has been awesome so far. </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="Images/Tokyo1.jpg" alt="Tokyo" id="main-image">
+                    </div>
+
+                    <div class="col-md-6">
+                        <p> 
+                            I'm Josh Tec, and I am an aspiring developer. 
+                            I am currently attending a coding bootcamp at Georgia Tech, 
+                            which has been awesome so far. Now that I know I can have fun 
+                            with this assignment I am going to use pictures from my trip to 
+                            Tokyo because it was one of the best experiences of my life.
+                        </p>
+                    </div>
                 </div>
+
+                <div class="row"> 
+                    <div class="col-md-12">
+                        <p>
+                            If you have not been to Japan, I highly recommend planning a trip.
+                            Tokyo is absolutely the best city that I have ever been to. Imagine
+                            a more efficient, less chaotic version of New York City. I was there for 
+                            a week, and I barely scratched the surface when it comes to exploring the 
+                            city. 
+                        </p>
+                    </div>
+                </div>
+                
             </div>
 
             <!-- Connect Panel -->
@@ -61,10 +85,9 @@
     
 </body>
 
-<footer>
-    <div class="row col-md-12 bg-primary text-center navbar-fixed-bottom">
-            
-            <h6> &#169; Copyright 2018 Josh Tec</h6> 
+<footer class="foot">
+    <div class="row col-md-12 text-center navbar-fixed-bottom">
+        <h6> &#169; Copyright 2018 Josh Tec</h6> 
     </div>
 </footer>
 
