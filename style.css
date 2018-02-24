@@ -1,7 +1,7 @@
 body {
     line-height: 22px;
     font-size: 18px;
-    background: lavender;
+    background: beige;
     color: #777;
 }
 
@@ -12,19 +12,24 @@ nav {
     padding: 20px;
 }
 
-.navbar-header {
+/* .navbar-header {
+    padding: 20px;
+    background: #4aaaa5;
+    color: #eee;
     
-    
-}
+} */
 
 /* Footer */
-.foot {
+
+/* THIS MESSED UP MY DECENT LOOKING FOOTER :( */
+
+/* .foot {
     padding: 30px;
     background: #777;
     color: #eee;
     margin-top: 10px;
     border-top: 5px solid #eee;
-}
+} */
 
 /* Main content */
 #main-image {
